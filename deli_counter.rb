@@ -8,7 +8,7 @@ def line(array)
     i = 0 
     sentence = "The line is currently\n"
     while i < array.length 
-      sentence += "#{i + 1}. {array[i]} "
+      sentence += "#{i + 1}. #{array[i]} "
       i += 1 
     end 
     puts sentence 
